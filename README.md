@@ -3,14 +3,14 @@
 
 #效果图：
 
- [![](https://raw.githubusercontent.com/yimouleng/MTPortalTransition/master/123123.gif)](https://raw.githubusercontent.com/yimouleng/MTPortalTransition/master/123123.gif)
+ [![](https://github.com/yimouleng/MTPageView/blob/master/123123.gif)](https://github.com/yimouleng/MTPageView/blob/master/123123.gif)
 
 ## 使用方法
 
 ```
  //本地图片
 
-    NSArray *imageArray = [[NSArray alloc] initWithObjects:@"img_01",@"img_02",@"img_03",@"img_04",nil];
+    NSArray *imageArray = [[NSArray alloc] initWithObjects:@"01.jpg",@"02.jpg",@"03.jpg",@"04.jpg",nil];
 
     //网络图片
 
