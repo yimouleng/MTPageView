@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "MTPageView.h"
-@interface ViewController ()
+@interface ViewController ()<PageViewDelegate>
 
 @end
 
@@ -28,10 +28,13 @@
     pageView.imageArray = imageArray;
     //停留时间
     pageView.duration = 5.0;
-    
+    //代理
+    pageView.delegate= self;
     [self.view addSubview:pageView];
 }
-
+- (void)didSelectPageViewWithNumber:(NSInteger)selectNumber{
+     NSLog(@"点击了第%ld页",selectNumber);
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

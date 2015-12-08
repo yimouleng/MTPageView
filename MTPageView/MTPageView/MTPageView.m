@@ -188,7 +188,7 @@
 //手势点击
 - (void)pageViewClick:(UITapGestureRecognizer *)tap
 {
-    NSLog(@"点击了第%ld页",self.pageControl.currentPage);
+//    NSLog(@"点击了第%ld页",self.pageControl.currentPage);
     [self.delegate didSelectPageViewWithNumber:self.pageControl.currentPage];
 }
 
